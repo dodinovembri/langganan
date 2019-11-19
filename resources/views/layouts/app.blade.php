@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
         ============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon.ico') }}">
     <!-- Google Fonts
         ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
@@ -43,13 +43,13 @@
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
     <!-- style CSS
         ============================================ -->
-    <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <!-- responsive CSS
         ============================================ -->
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
     <!-- modernizr JS
         ============================================ -->
-    <script src="{{ asset('asset/js/vendor/modernizr-2.8.3.min.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/modernizr-2.8.3.min.js') }}"></script>
 </head>
 <body>
     <!--[if lt IE 8]>
