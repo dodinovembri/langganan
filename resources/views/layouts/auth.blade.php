@@ -132,6 +132,14 @@
         function register() {
             $('#register_form').submit();   
         }
+
+        function loginenter() {
+            // body...
+            if (event.keyCode == 13) {
+                event.preventDefault()
+                $('#login_form').submit();
+            }
+        }
     </script>
 </body>
 </html>

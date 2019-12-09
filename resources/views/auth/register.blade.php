@@ -1,9 +1,6 @@
 @extends('layouts.auth')
 
 @section('content')
-@extends('layouts.auth')
-
-@section('content')
 
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -50,12 +47,9 @@
 
             <div class="nk-navigation nk-lg-ic">
                 <a href="{{ url('login') }}" data-ma-block="#l-register"><i class="notika-icon notika-plus-symbol"></i> <span>Login</span></a>
-                <a href="#" data-ma-action="nk-login-switch" data-ma-block="#l-forget-password"><i>?</i> <span>Forgot Password</span></a>
+                <a href="{{ url('/password/reset') }}" data-ma-action="nk-login-switch" data-ma-block="#l-forget-password"><i>?</i> <span>Forgot Password</span></a>
             </div>
         </div>
     </div>
     <!-- Login Register area End-->
-
-@endsection
-
 @endsection

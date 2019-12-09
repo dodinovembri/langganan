@@ -32,7 +32,7 @@
                     <div class="fm-checkbox">
                         <label><input type="checkbox" class="i-checks"> <i></i> Keep me signed in</label>
                     </div>
-                    <a class="btn btn-login btn-success btn-float" onclick="login()"><i class="notika-icon notika-right-arrow right-arrow-ant"></i></a>                    
+                    <a class="btn btn-login btn-success btn-float" onclick="login()" onkeydown="loginenter()"><i class="notika-icon notika-right-arrow right-arrow-ant"></i></a>                    
                 </div>
             </form>
 

@@ -17,6 +17,10 @@
 
 Auth::routes();
 
-Route::get('/', 'HomeController@index')->name('home');
+Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
 
+// routes frontend
+Route::get('/', 'FrontendController@index')->name('home');
+
+// routes backend
 Route::get('/home', 'HomeController@index')->name('home');
